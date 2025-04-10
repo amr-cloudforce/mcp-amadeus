@@ -26,7 +26,8 @@ Retrieve flight options between two locations for specified dates.
 ## 🌐 Demo
 
 Once installed and connected to an MCP-compatible client (e.g., [Claude Desktop](https://claude.ai/download)), this server exposes tools that your AI assistant can use to fetch flight data.
-![Demo GIF](https://imgur.com/a/VfBi0Mo.gif)
+
+![Demo GIF](https://i.imgur.com/OPoq01N.gif)
 
 ---
 
