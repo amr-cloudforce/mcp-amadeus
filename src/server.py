@@ -93,8 +93,8 @@ async def handle_list_tools() -> list[types.Tool]:
                         "type": "integer",
                         "description": "Maximum number of flight offers to return.",
                         "minimum": 1,
-                        "maximum": 250,
-                        "default": 250
+                        "maximum": 30,
+                        "default": 30
                     }
                 },
                 "required": ["originLocationCode", "destinationLocationCode", "departureDate", "adults"],
@@ -149,7 +149,7 @@ async def handle_call_tool(
             "children": arguments.get("children", 0),
             "infants": arguments.get("infants", 0),
             "nonStop": arguments.get("nonStop", "false"),
-            "max": arguments.get("max", 250),
+            "max": arguments.get("max", 30),
         }
 
         if "returnDate" in arguments:
