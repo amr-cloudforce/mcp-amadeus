@@ -1,6 +1,6 @@
 # Amadeus MCP Server
 
-**MCP-Amadeus is a community-developed [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol) server that integrates with the **Amadeus Flight Offers Search API to provide flight search capabilities through natural language interfaces. Built for use with MCP-compatible clients (e.g., Claude Desktop).
+**MCP-Amadeus is a community-developed [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol) server that integrates with the Amadeus Flight Offers Search API** to provide flight search capabilities through natural language interfaces. Built for use with MCP-compatible clients (e.g., Claude Desktop).
 
 This project enables users to easily search for flight options between two locations with specific dates using the power of large language models (LLMs) and the Amadeus API.
 
@@ -26,7 +26,7 @@ Retrieve flight options between two locations for specified dates.
 ## 🌐 Demo
 
 Once installed and connected to an MCP-compatible client (e.g., [Claude Desktop](https://claude.ai/download)), this server exposes tools that your AI assistant can use to fetch flight data.
-![Demo GIF](https://imgur.com/a/VfBi0Mo)
+![Demo GIF](https://imgur.com/a/VfBi0Mo.gif)
 
 ---
 
