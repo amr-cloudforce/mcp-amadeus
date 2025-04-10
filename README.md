@@ -27,8 +27,7 @@ Retrieve flight options between two locations for specified dates.
 
 Once installed and connected to an MCP-compatible client (e.g., [Claude Desktop](https://claude.ai/download)), this server exposes tools that your AI assistant can use to fetch flight data.
 
-![amadeus-mcp](https://github-production-user-asset-6210df.s3.amazonaws.com/101158753/432179625-2a13e7ab-bad4-4d68-8501-2a7593a2d39b.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250410%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250410T075206Z&X-Amz-Expires=300&X-Amz-Signature=b17b819a2372b824fcf5467cd0a353b2acc8038bf14a0ca15f21c6301eec123f&X-Amz-SignedHeaders=host)
-
+![amadeus-mcp](https://github.com/user-attachments/assets/7cbf9dd0-aa9f-4554-8891-70a394d657a5)
 
 ---
 
