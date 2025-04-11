@@ -1,5 +1,7 @@
 # Amadeus MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@donghyun-chae/mcp-amadeus)](https://smithery.ai/server/@donghyun-chae/mcp-amadeus)
+
 **MCP-Amadeus is a community-developed [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol) server that integrates with the Amadeus Flight Offers Search API** to provide flight search capabilities through natural language interfaces. Built for use with MCP-compatible clients (e.g., Claude Desktop).
 
 This project enables users to easily search for flight options between two locations with specific dates using the power of large language models (LLMs) and the Amadeus API.
@@ -32,6 +34,14 @@ Once installed and connected to an MCP-compatible client (e.g., [Claude Desktop]
 ---
 
 ## 🚀 Quick Start
+
+### Installing via Smithery
+
+To install Amadeus MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@donghyun-chae/mcp-amadeus):
+
+```bash
+npx -y @smithery/cli install @donghyun-chae/mcp-amadeus --client claude
+```
 
 ### 1. Clone and Setup
 
@@ -163,4 +173,3 @@ Returns flight offers in JSON format with airline, times, duration, and pricing 
 ## 📝 License
 
 [MIT License](LICENSE) © 2025 [donghyun-chae](https://github.com/donghyun-chae)
-
