@@ -1,0 +1,31 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - amadeusClientId
+      - amadeusClientSecret
+    properties:
+      amadeusClientId:
+        type: string
+        description: Amadeus API Client ID (used as AMADEUS_API_KEY)
+      amadeusClientSecret:
+        type: string
+        description: Amadeus API Client Secret (used as AMADEUS_API_SECRET)
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({
+      command: 'python',
+      args: ['src/server.py'],
+      env: {
+        AMADEUS_API_KEY: config.amadeusClientId,
+        AMADEUS_API_SECRET: config.amadeusClientSecret
+      }
+    })
+  exampleConfig:
+    amadeusClientId: your_dummy_client_id
+    amadeusClientSecret: your_dummy_client_secret
